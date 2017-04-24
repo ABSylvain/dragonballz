@@ -1,0 +1,145 @@
+body {
+    background-image: url(fond-ecran-trunks-sangoten-dbz.jpg);
+    background-attachment: fixed ;
+    background-position: 60% 70% ;
+    display : flex ;
+    flex-direction : column ;
+    align-items : center ;
+    margin : 0 ;
+}
+header{
+    display : flex ;
+    justify-content : center ;
+    background-color : rgb( 51, 68, 156);
+    border: 3px solid orange;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top : 7px;
+}
+main{
+    display : flex ;
+    justify-content : center ;
+    background-color : rgb( 51, 68, 156) ;
+    border: 3px solid orange;
+    flex-direction : column ;
+    align-items : center ;
+    width: 85%;
+    margin-bottom: 15px ;
+}
+p{
+    display : flex;
+    justify-content: center;
+    text-align: center;
+    width : 70% ;
+    margin-bottom: 4em ;
+    line-height: 1.5em;
+    
+}
+footer{
+    display : flex; 
+    justify-content: center;
+}
+#depart {
+    width : 300px ;
+    height : 200px;
+    margin : 5px ;
+    border: 2px solid black;
+}
+ul{
+    display : flex;
+    padding-left : 0;
+    
+    justify-content : space-between;
+}
+li{
+    list-style: none ;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width : 65%;
+}
+a{
+    padding : 0;
+    margin: 0;
+    width : 100%;
+    height: 100%;
+    width: 50%;
+    display : flex;
+    align-self : flex-end;
+    text-decoration : none ; 
+}
+article{
+    border-bottom : 1px solid black;
+    width : 90%;
+    height : 250px;
+    margin-bottom : 6px;
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+h3{
+    width : 50%;
+    height : 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.hp{
+    width : 60px;
+    height : 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ic{
+    display :flex ; 
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 40%;
+    height: 50%;
+
+}
+#te{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Bookman Old Style', Garamond, serif ;
+    font-size: 20px;
+    line-height: 35px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#forl{
+    margin-top: 150px;
+}
+input{
+    margin-bottom: 30px;
+}
+#ge{
+    display: flex;
+
+}
+.htg{
+    width: 50%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 180px;
+    overflow: auto;  
+}
+.pl{
+    width: 50%;
+    height: 180px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.ip{
+    width: 100px;
+    height: 100px;
+}
