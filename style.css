@@ -48,10 +48,11 @@ footer{
 ul{
     display : flex;
     padding-left : 0;
-    
     justify-content : space-between;
 }
 li{
+    width: 100px;
+    height: 100px;
     list-style: none ;
     
 }
@@ -140,6 +141,6 @@ input{
     margin-top: 0px;
 }
 .ip{
-    width: 100px;
+    min-width: 100px;
     height: 100px;
 }

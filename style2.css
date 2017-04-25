@@ -1,0 +1,33 @@
+body{
+    background-image: url(fond-ecran-trunks-sangoten-dbz.jpg);
+    background-attachment: fixed ;
+    background-position: 60% 70% ;
+    width:100%;
+    height:100vh;
+    display : flex ;
+    align-items: center ;
+    justify-content: center;
+}
+.ong{
+    width: 70%;
+    height: 50px;
+    display : flex ;
+    flex-direction : row ; 
+    justify-content: space-around;
+    align-items:center;
+    background-color: white;
+    margin-top: 15px;
+}
+li{
+    display:flex;
+    justify-content: center;
+}
+.lip{
+    display:none;
+}
+#hist:hover .lip{
+    display: block;
+}
+a{
+    text-decoration: none
+}
