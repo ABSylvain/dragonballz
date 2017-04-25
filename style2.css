@@ -10,13 +10,14 @@ body{
 }
 .ong{
     width: 70%;
-    height: 50px;
+    height: 60px;
     display : flex ;
     flex-direction : row ; 
     justify-content: space-around;
     align-items:center;
     background-color: white;
     margin-top: 15px;
+    border-radius: 5px;
 }
 li{
     display:flex;
@@ -29,5 +30,14 @@ li{
     display: block;
 }
 a{
-    text-decoration: none
+    padding: 0px;
+    text-decoration: none;
+    transition: padding .3s;
+    font-family: ;
+    font-size: 1.4em;
+}
+a:hover{
+    padding : 6px 50px;
+    background-color: #7FFFD4;
+    border-radius : 7px;
 }
