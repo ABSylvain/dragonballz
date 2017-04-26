@@ -145,12 +145,6 @@ input{
     height: 180px;
     overflow: auto;  
 }
-.pl{
-    width: 50%;
-    height: 180px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
 .ip{
     min-width: 100px;
     height: 100px;
