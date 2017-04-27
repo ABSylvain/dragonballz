@@ -1,0 +1,185 @@
+body {
+    background-image: url(../img/fond-ecran-trunks-sangoten-dbz.jpg);
+    background-attachment: fixed ;
+    background-position: 60% 70% ;
+    display : flex ;
+    flex-direction : column ;
+    align-items : center ;
+    margin : 0 ;
+}
+header{
+    display : flex ;
+    justify-content : center ;
+    background-color : rgb( 51, 68, 156);
+    border: 3px solid orange;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top : 7px;
+    border-radius: 6px;
+}
+main{
+    display : flex ;
+    justify-content : center ;
+    background-color : rgb( 51, 68, 156) ;
+    border: 3px solid orange;
+    flex-direction : column ;
+    align-items : center ;
+    width: 85%;
+    margin-bottom: 15px ;
+    border-radius: 6px;
+}
+p{
+    display : flex;
+    justify-content: center;
+    text-align: center;
+    width : 70% ;
+    margin-bottom: 4em ;
+    line-height: 1.5em;
+    
+}
+footer{
+    display : flex; 
+    justify-content: center;
+}
+#depart {
+    width : 300px ;
+    height : 200px;
+    margin : 5px ;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+ul{
+    display : flex;
+    padding-left : 0;
+    justify-content : space-between;
+}
+li{
+    width: 100px;
+    height: 100px;
+    list-style: none ;
+    
+}
+img {
+    border-radius: 15px;
+}
+nav{
+    width : 65%;
+}
+a{
+    padding : 0;
+    margin: 0;
+    width : 100px;
+    height: 100px;
+    display : flex;
+    align-self : flex-end;
+    text-decoration : none ; 
+}
+article{
+    border-bottom : 1px solid black;
+    width : 90%;
+    height : 250px;
+    margin-bottom : 6px;
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+h3{
+    width : 50%;
+    height : 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+a.hp{
+    width : 120px;
+    height : 25px;
+    background-color: #7FFFD4;
+    border: 1px solid orange;
+    border-radius: 2px;
+    box-shadow: 5px 5px 7px black;
+    transition: all .3s;
+}
+a.hp:hover {
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 10px 10px 5px black;
+}
+.ic{
+    display :flex ; 
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 40%;
+    height: 50%;
+
+}
+#te{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Bookman Old Style', Garamond, serif ;
+    font-size: 20px;
+    line-height: 35px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#forl{
+    margin-top: 150px;
+}
+input{
+    margin-bottom: 30px;
+}
+#ge{
+    display: flex;
+
+}
+.htg{
+    width: 50%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 180px;
+    overflow: auto;  
+}
+.ip{
+    min-width: 100px;
+    height: 100px;
+}
+#retour {
+    padding: 0px;
+    margin-bottom: 15px;
+    width: 10%;
+    height: 40px;
+    align-self: center;
+    background-color: rgb( 51, 68, 156);
+    font-size: 30px;
+    text-decoration: none;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 15%;
+    transition: all .3s;
+    box-shadow: 0px 0px 10px black;
+}
+#retour:hover{
+    padding : 5px 15px;
+    box-shadow: 0px 10px 40px black;
+}
+famille{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+imageperso:hover{
+    box-shadow: 10px 0px 15px black;
+    padding: 15px;
+}
+a #imageindex{
+    width: 100%;
+    height: 100%;
+}

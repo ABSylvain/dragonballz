@@ -1,0 +1,44 @@
+main{
+    width : 200px;
+    height : 200px;
+    background-color: red;
+    position: absolute;
+    top: 5em;
+    left: 10em;
+    animation-duration: 4s;
+    animation-name: main;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes main {
+
+    25%{
+        width : 200px;
+        height : 200px;
+        border-radius : 100px;
+        background-color: blue;
+        top: 5em;
+        left:50em;
+    }
+    50%{
+        width : 100px;
+        height : 100px;
+        top:30em ;
+        left: 50em ;
+        background-color: yellow;
+    }
+    75%{
+        width : 200px;
+        height : 200px;
+        top: 30em;
+        left:10em ;
+        background-color: green;
+
+    }
+    100%{
+        width : 200px;
+        height : 200px;
+
+    }
+}
