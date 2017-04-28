@@ -134,7 +134,81 @@ body#fondfilm li{
 
 body#fondAcceuil{
     background-color:orangered;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+body#fondAcceuil ul#paquet{
+    border: 1px solid black;
+    padding: 0;
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+body#fondAcceuil ul#paquet li#boulcristal1{
+    background-color: orange;
+    width:20px;
+    height:20px;
+    
+
+}
+body#fondAcceuil ul#paquet li#boulcristal2{
+    background-color: orange;
+    width:20px;
+    height:20px;
+    margin-right: 50px;
+
+}
+
+body#fondAcceuil ul#paquet li#boulcristal3{
+    background-color: orange;
+    width:20px;
+    height:20px;
+    margin-right: 70px
+
+}
+
+body#fondAcceuil ul#paquet li#boulcristal4{
+    background-color: orange;
+    width:20px;
+    height:20px;
+    margin-right: 60px;
+
+}
+
+body#fondAcceuil ul#paquet li#boulcristal5{
+    background-color: orange;
+    width:20px;
+    height:20px;
+    margin-right: 40px;
+
+}
+
+body#fondAcceuil ul#paquet li#boulcristal6{
+    background-color: orange;
+    width:20px;
+    height:20px;
+    margin-right: 70px;
+
+}
+
+body#fondAcceuil ul#paquet li#boulcristal7{
+    background-color: orange;
+    width:20px;
+    height:20px;
+
+}
+
+
+/*refaire les margin des boul*/
+
+
+
 
 /*////////////////////////////////////////////@KEYFRAMES\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
