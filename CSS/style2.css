@@ -28,9 +28,16 @@ li{
 }
 .lip{
     display:none;
+
+}
+#lhp{
+    display:block;
+}
+li#hist{
+    display:relative;
 }
 #hist:hover .lip{
-    display: block;
+    display: inherit;
 }
 a{
     padding: 0px;
@@ -45,7 +52,7 @@ a:hover{
     border-radius : 7px;
 }
 lm{
-
+    
 }
 nav {
     width: 100%;
